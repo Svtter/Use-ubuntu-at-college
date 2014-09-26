@@ -24,4 +24,13 @@ sudo apt-get update
 sudo apt-get install touchpad-indicator
 ```
 
+Keylock Application Indicator （显示大写键状态）
+---
 
+```bash
+sudo add-apt-repository ppa:tsbarnes/indicator-keylock
+
+sudo apt-get update
+
+sudo apt-get install indicator-keylock
+```
