@@ -1,6 +1,8 @@
 #!/bin/bash
 
 git add --a
-git commit -m 'update'
+echo 输入更改信息：
+read change
+git commit -m $change
 git push
 
